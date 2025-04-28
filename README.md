@@ -1,1 +1,1 @@
-# data_analysis_capstone_project
+# data_analysis_project
