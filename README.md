@@ -1,27 +1,29 @@
-# 📈 Yıllık Gelir Analizi Grafiği
+# 📊 Veri Analizi ve Görselleştirme Projesi
 
-Bu proje, Python kullanarak yıllara göre toplam gelir verisini görselleştirmek için geliştirilmiştir.
+Bu proje, farklı veri setleri üzerinden Python kullanarak veri analizi ve görselleştirme uygulamalarını kapsamaktadır.
 
-## 🧰 Kullanılan Kütüphaneler
+## 📁 Dosya Açıklamaları
 
-- `pandas`
-- `matplotlib`
+### `yillik_gelir_grafigi.py`
+Yıllara göre toplam gelirin çizgi grafik ile gösterildiği analiz. Grafik üzerinde artış ve düşüşler annotate ile vurgulanmıştır.
 
-## 🔍 Projenin Amacı
+### `kategori_gelir_analizi.py`
+Farklı ürün kategorilerinin toplam gelirlerini karşılaştırmak için çubuk grafik kullanılmıştır. Beverages kategorisi en yüksek gelire sahiptir.
 
-Belirli yıllara ait gelir verilerinin çizgi grafiği ile analiz edilmesi.  
-Grafikteki ani artış ve düşüşler açıklamalarla vurgulanmıştır.
+### `musteri_siparis_analizi.py`
+En çok sipariş veren müşterilerin toplam sipariş sayıları analiz edilmiş, müşteri isimlerine göre çubuk grafik çizilmiştir.
 
-## 📊 Grafik Özellikleri
+### `kargo_gelir_analizi.py`
+Kargo firmalarının toplam sipariş ve gelirleri karşılaştırılmış, firma bazında gelirler grafikle görselleştirilmiştir.
 
-- Çizgi grafik (line chart)
-- Binlik ayırıcı (virgül ile)
-- Nokta etiketleme
-- Açıklama (annotate) okları
-- Grid (ızgara) çizgileri
+## 📦 Kullanılan Kütüphaneler
+- pandas
+- matplotlib
+- seaborn (bazı analizlerde)
 
-## 🚀 Nasıl Çalıştırılır?
+  
+## 👤 Geliştirici
 
-```bash
-pip install pandas matplotlib
-python yillik_gelir_grafigi.py
+Recep Özcan  
+İzmir, Türkiye  
+
